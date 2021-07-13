@@ -1,0 +1,46 @@
+@import url(global.css);
+@import url(home-section.css);
+@import url(resume-section.css);
+
+.main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .resume-ctn {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 1100px) {
+  .main {
+    flex-direction: row;
+  }
+
+  .home {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    height: 100vh;
+  }
+  .home-content {
+    justify-content: flex-end;
+  }
+
+  .resume-ctn {
+    max-width: 100%;
+  }
+
+  .resume-box {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .resume-main-box {
+    max-width: 540px;
+    padding: 0 16px;
+  }
+}

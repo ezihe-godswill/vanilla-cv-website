@@ -1,0 +1,84 @@
+.resume {
+  width: 100%;
+  font-size: 0.92rem;
+}
+
+.resume-ctn {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.resume-box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 48px 16px 0px 16px;
+}
+
+.resume-box:first-child {
+  padding-top: 24px;
+}
+
+.resume-box-heading {
+  font-weight: 600;
+  text-transform: uppercase;
+  transform: scale(0.86);
+  color: var(--color2);
+  padding: 8px 16px 16px 0;
+}
+
+.resume-main-box {
+  width: 95%;
+  margin-left: auto;
+}
+
+.resume-heading {
+  font-weight: 600;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+.resume-heading-md {
+  font-weight: 600;
+  font-size: 0.94rem;
+}
+
+.resume-mini-box {
+  margin: 8px 0 18px 0;
+}
+
+.experience-list {
+  margin: 8px 0;
+  list-style: circle;
+}
+
+.experience-list-item {
+  margin-bottom: 8px;
+}
+
+.experience-list-heading {
+  list-style: none;
+  font-weight: 600;
+}
+
+.resume-portfolio-link {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+  margin-bottom: 8px;
+  border-bottom: 1px solid currentColor;
+}
+
+.resume-link {
+  display: inline-block;
+  height: 56px;
+  color: var(--color2);
+  text-decoration: none;
+  margin: 56px auto;
+}

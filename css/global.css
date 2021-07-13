@@ -1,0 +1,38 @@
+@font-face {
+  font-family: Inter;
+  src: url(fonts/open-sans/OpenSans-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: Inter;
+  src: url(fonts/open-sans/OpenSans-Bold.ttf);
+  font-weight: bold;
+}
+@font-face {
+  font-family: Inter;
+  src: url(fonts/open-sans/OpenSans-SemiBold.ttf);
+  font-weight: 600;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color1: #ffffff;
+  --color2: #0531f2;
+  --color3: #333333;
+  --color4: #05ff1a;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  line-height: 1.5;
+  font-family: Inter, sans-serif;
+  font-size: 1rem;
+  background: var(--color1);
+  color: var(--color3);
+}
